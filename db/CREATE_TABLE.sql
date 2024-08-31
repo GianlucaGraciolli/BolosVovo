@@ -1,0 +1,17 @@
+
+CREATE TABLE Usuario(
+	idUsuario INT AUTO_INCREMENT PRIMARY KEY,
+	nomeUsuario VARCHAR(100) NOT NULL,
+	senhaUsuario VARCHAR(100) NOT NULL,
+	admUsuario VARCHAR(1) NULL
+	)
+	
+CREATE TABLE Bolo(
+	idBolo INT AUTO_INCREMENT PRIMARY KEY,
+	nomeBolo VARCHAR(50) NOT NULL,
+	precoBolo DECIMAL(6,2) NOT NULL,
+	pathFoto VARCHAR(255) NULL,
+	descricaoBolo VARCHAR(200) NULL
+)
+	
+	

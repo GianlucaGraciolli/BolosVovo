@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Inter Bold";
+    src: url(./../Fontes/Inter-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Inter Light";
+    src: url(./../Fontes/Inter-Light.ttf);
+}
+
+@font-face {
+    font-family: "Inter Regular";
+    src: url(./../Fontes/Inter-Regular.ttf);
+}
+
+:root {
+    --font-bold: "Inter Bold";
+    --font-regular: "Inter Regular";
+    --font-light: "Inter Light";
+}
